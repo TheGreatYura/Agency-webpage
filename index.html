@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Agency</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="navigation wrapped flex-container">
+			<a href="#" class="navigation__link">home</a>
+			<a href="#" class="navigation__link">portfolio</a>
+			<a href="#" class="navigation__link">about us</a>
+			<a href="#" class="navigation__link">contacts</a>
+		</nav>
+		<section class="organaisation wrapped flex-container">
+			<div class="organaisation__info">
+				<h1 class="organaisation__heading">our strong<br> organaisation</h1>
+				<p class="organaisation__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<a href="#" class="organaisation__contact button">Contact Us</a>
+			</div>
+			<div class="organaisation__video">
+				<video poster="videos/agency.png"controls>
+					<source src="videos/vid.mp4" type="video/mp4">
+				</video>
+			</div>
+		</section>
+	</header>
+
+	<main class="main">
+		<section class="services wrapped flex-container">
+			<div class="learn">
+				<h2 class="main__heading services__heading">do you know we can<br> provide for you&nbsp;?</h2>
+				<p class="main__text services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<a href="#" class="services__more button button_white">Learn more</a>
+			</div>
+			<div class="works flex-container">
+				<div class="works__item">
+					<img src="images/logos/cog.jpg" 
+						class="works__icon">
+					<h3 class="works__heading">Management</h3>
+					<p class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="works__item">
+					<img src="images/logos/pensil.jpg" class="works__icon">
+					<h3 class="works__heading">UI / UX Design</h3>
+					<p class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="works__item">
+					<img src="images/logos/diamond.jpg" 
+						class="works__icon">
+					<h3 class="works__heading">Logo / Branding</h3>
+					<p class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+				<div class="works__item">
+					<img src="images/logos/truck.jpg" class="works__icon truck__animation">
+					<h3 class="works__heading">Animation</h3>
+					<p class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="products wrapped">
+			<h2 class="main__heading products__heading">feature products</h2>
+			<p class="main__text products__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+			<div class="main__line products__line"></div>
+			<nav class="products__navigation flex-container">
+				<a href="" class="products__nav-item">all</a>
+				<a href="" class="products__nav-item">print template</a>
+				<a href="" class="products__nav-item">web template</a>
+				<a href="" class="products__nav-item">user interface</a>
+				<a href="" class="products__nav-item">mock-up</a>
+			</nav>
+			<div class="products__items flex-container">
+				<div class="products__item"></div>
+				<div class="products__item"></div>
+				<div class="products__item"></div>
+				<div class="products__item"></div>
+				<div class="products__item"></div>
+				<div class="products__item"></div>
+				<div class="products__item"></div>
+				<div class="products__item"></div>
+			</div>
+		</section>
+
+		<section class="team wrapped">
+			<h2 class="main__heading team__heading">meet our team</h2>
+			<p class="main__text team__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+			<div class="main__line team__line"></div>
+			<div class="team__info flex-container">
+				<div class="team__photo" id="mainPhoto"></div>
+				<div class="team__worker-info flex-container">
+					<h3 class="main__heading team__worker-name" id="mainName">Johnny Cage</h3>
+					<p class="main__text team__worker-appointment"
+					id="mainInfo">Johnny Cage, famous Hollywood action hero, joined the first Mortal Kombat tournament for the publicity. As the Thunder God, Raiden, intoned at the time about the arrogant, loquacious Cage, "He is a hero… though he might not yet know it."</p>
+					<div class="team__worker-social flex-container">
+						<a href="" class="team__link">Facebook</a>
+						<a href="" class="team__link">Dribble</a>
+						<a href="" class="team__link">Behance</a>
+						<a href="" class="team__link">Twitter</a>
+					</div>
+					<div class="team__workers flex-container">
+						<div class="team__worker-photo" id="photo1"
+						onclick="changeMain(this)">
+							<div class="pop-up-name" id="name1">Sonya Blade</div>
+							<div class="hidden__info" id="info1">
+							General Sonya A. Blade is a female soldier who was a member of Earthrealm's Special Forces unit known as Outer World Investigation Agency (OIA), now she commands all the operations of the Special Forces and Units like the new Earthrealm unit which is Cassie's team.
+							</div>
+						</div>
+						<div class="team__worker-photo" id="photo2"
+						onclick="changeMain(this)">
+							<div class="pop-up-name" id="name2">Jackson "Jax" Briggs</div>
+							<div class="hidden__info" id="info2">Thirty years ago, Jax was the C.O. of a secret Special Forces unit that got caught up in the Mortal Kombat tournament and the subsequent invasion of Earthrealm by Shao Kahn and Outworld.</div>
+						</div>
+						<div class="team__worker-photo" id="photo3"
+						onclick="changeMain(this)">
+							<div class="pop-up-name" id="name3">Liu Kang</div>
+							<div class="hidden__info" id="info3">Liu Kang was Earthrealm’s champion, winner of two straight Mortal Kombat tournaments. Under Raiden’s tutelage, Liu Kang defeated both Shang Tsung and Shao Kahn, becoming a legend throughout the realms.</div>
+						</div>
+						<div class="team__worker-photo" id="photo4"
+						onclick="changeMain(this)">
+							<div class="pop-up-name" id="name4">Johnny Cage</div>
+							<div class="hidden__info" id="info4">Johnny Cage, famous Hollywood action hero, joined the first Mortal Kombat tournament for the publicity. As the Thunder God, Raiden, intoned at the time about the arrogant, loquacious Cage, "He is a hero… though he might not yet know it."</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="subscription">
+			<div class="wrapped">
+				<h2 class="main__heading subscription__heading">Design tips, tricks and freebies. Delivered weekly.</h2>
+				<p class="main__text subscription__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+				<form class="subscription__form flex-container">
+					<input type="email" name="sub-email" placeholder="Email Address..." class="subscription__email">
+					<input type="submit" name="submit" value="SUBSCRIBE" class="button subscription__submit">
+				</form>
+			</div>
+		</section>
+		
+		<section class="contacts">
+			<div class="contacts__text-container">
+				<h2 class="main__heading">get in touch</h2>
+				<p class="main__text contacts__text">Lorem 			ipsum dolor sit amet, consectetur 				adipiscing elit, sed do eiusmod tempor 			incididunt ut labore et dolore magna. 			Ut enim ad minim veniam, quis nostrud 			exercitation ullamco laboris nisi ut 			aliquip ex ea commodo consequat.</p>
+				<div class="main__line contacts__line"></div>
+			</div>
+			<div class="contacts__container flex-container">	
+				<div class="message">
+					<form class="message__form flex-container">
+						<input type="text" name="name" class="message__input" placeholder="Name">
+						<input type="email" name="email" class="message__input" placeholder="Your Mail">
+						<textarea class="message__textarea" placeholder="Type your message..."></textarea>
+						<input type="submit" name="send" value="SEND MESSAGE" class="button message__send">
+					</form>
+				</div>
+				<div class="contacts__info">
+					<h3>CONTACT INFO</h3>
+					<address>Gogolya st. 85, Kiev, Ukraine</address>
+					<a href="mailto:" class="contacts__mail">ouremail@gmail.com</a>
+					<p>(+38) 073 123 45 67</p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="footer__info wrapped flex-container">
+			<p class="footer__rights">
+				&copy; Copyright&#64;Y.Black 2018. All rights reserved.
+			</p>
+			<div class="footer__icons">
+				<a href=""><img src="images/logos/twitter.png" alt=""></a>
+				<a href=""><img src="images/logos/likedin.png" alt=""></a>
+				<a href=""><img src="images/logos/google.png" alt=""></a>
+				<a href=""><img src="images/logos/facebook.png" alt=""></a>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript">
+		function changeMain(img) {
+			var mPhoto = document.getElementById("mainPhoto");
+			var mName = document.getElementById("mainName");
+			var name = document.getElementById("name");
+			var mInfo = document.getElementById("mainInfo");
+
+			var style = img.currentStyle || window.getComputedStyle(
+				img, false);
+			var bi = style.backgroundImage.slice(4, -1).replace(/"/g, "");
+			mPhoto.style.backgroundImage = "url('" + bi + "')";
+
+			var index = img.id.slice(-1);
+			mName.innerHTML = document.getElementById("name" + index).innerHTML;
+			mInfo.innerHTML = document.getElementById("info" + index).innerHTML;
+					
+		}
+	</script>
+</body>
+</html>
